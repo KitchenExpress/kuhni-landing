@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-  base: '/kuhni-landing/', // 👈 добавь это!
+  base: '/kuhni-landing/', // <-- ОБЯЗАТЕЛЬНО!!!
   plugins: [react()],
   resolve: {
     alias: {
